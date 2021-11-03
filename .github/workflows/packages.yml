@@ -3,7 +3,7 @@ name: Packages
 on:
   push:
     branches:
-    - master
+    - pacman-pkgs
     paths:
     - 'packages/**'
   pull_request:

@@ -1,10 +1,10 @@
 TERMUX_PKG_HOMEPAGE=https://github.com/Yisus7u7/termux-lxqt-welcome
 TERMUX_PKG_DESCRIPTION="A simple welcome app for termux-desktop-lxqt made in C++ and Qt"
 TERMUX_PKG_LICENSE="GPL-3.0"
-TERMUX_PKG_MAINTAINER="@Yisus7u7 <yisus7u7v@gmail.com>"
-TERMUX_PKG_VERSION=1.0.1
+TERMUX_PKG_MAINTAINER="@Yisus7u7 <dev.yisus@hotmail.com>"
+TERMUX_PKG_VERSION=1.0.2
 TERMUX_PKG_SRCURL=https://github.com/Yisus7u7/termux-lxqt-welcome/archive/refs/tags/termux-lxqt-welcome-${TERMUX_PKG_VERSION}.tar.gz
-TERMUX_PKG_SHA256=407ca96b476a85f0d9a45f453097bd546049fe78e8d190453361676f77c88d59
+TERMUX_PKG_SHA256=6fa2d27ad001702cddd99785fe986390bc46905a0bf03a471740876416afd138
 TERMUX_PKG_DEPENDS="qt5-qtbase, qt5-qtsvg"
 TERMUX_PKG_BUILD_DEPENDS="qt5-qtbase-cross-tools, qt5-qttools-cross-tools"
 TERMUX_PKG_BUILD_IN_SRC=true
